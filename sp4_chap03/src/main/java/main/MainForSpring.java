@@ -11,6 +11,7 @@ import assembler.Assembler;
 import spring.AlreadyExistingMemberException;
 import spring.ChangePasswordService;
 import spring.IdPasswordNotMatchingException;
+import spring.MemberInfoPrinter;
 import spring.MemberListPrinter;
 import spring.MemberNotFoundException;
 import spring.MemberRegisterService;
@@ -35,6 +36,12 @@ public class MainForSpring {
 				continue;
 			} else if (command.startsWith("change ")) {
 				processChangeCommand(command.split(" "));
+				continue;
+			}else if (command.equals("list")) {
+				processListCommand();
+				continue;
+			} else if (command.startsWith("info ")) {
+				processInfoCommand(command.split(" "));
 				continue;
 			}
 			printHelp();
