@@ -25,7 +25,7 @@ public class MainForSpring {
 		BufferedReader reader = 
 				new BufferedReader(new InputStreamReader(System.in));
 		while (true) {
-			System.out.println("명렁어를 입력하세요:");
+			System.out.println("명령어를 입력하세요:");
 			String command = reader.readLine();
 			if (command.equalsIgnoreCase("exit")) {
 				System.out.println("종료합니다.");
@@ -97,6 +97,9 @@ public class MainForSpring {
 		System.out.println("명령어 사용법:");
 		System.out.println("new 이메일 이름 암호 암호확인");
 		System.out.println("change 이메일 현재비번 변경비번");
+		System.out.println("list");
+		System.out.println("info 이메일");
+		System.out.println("version");
 		System.out.println();
 	}
 	
