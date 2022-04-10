@@ -22,7 +22,8 @@ public class MainForSpring {
 	private static ApplicationContext ctx = null;
 
 	public static void main(String[] args) throws IOException {
-	ctx = new GenericXmlApplicationContext("classpath:appCtx.xml"); //스프링 컨테이너 생성횄다. 스프링 컨테이너는 Assembler와 동일하게 객체를 생성하고 의존 객체를 주입해준다.
+	String[] conf = {"classpath:configImport.xml"};
+	ctx = new GenericXmlApplicationContext(conf); //스프링 컨테이너 생성횄다. 스프링 컨테이너는 Assembler와 동일하게 객체를 생성하고 의존 객체를 주입해준다.
 		BufferedReader reader = 
 				new BufferedReader(new InputStreamReader(System.in));
 		while (true) {
