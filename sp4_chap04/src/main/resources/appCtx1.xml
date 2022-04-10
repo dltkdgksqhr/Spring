@@ -20,4 +20,12 @@
 	
 	<bean id="infoPrinter" class="spring.MemberInfoPrinter">
 	</bean>
+	
+	<bean id="printer1" class="spring.MemberPrinter">
+	 <qualifier value="sysout"/>
+	</bean>
+	
+	<bean id="printer2" class="spring.MemberPrinter"/>
+	
+	<bean id="infoPrinter" class="spring.MemberInfoPrinter"/>
 </beans>
