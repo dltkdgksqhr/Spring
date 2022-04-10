@@ -16,6 +16,7 @@ import spring.MemberListPrinter;
 import spring.MemberNotFoundException;
 import spring.MemberRegisterService;
 import spring.RegisterRequest;
+import spring.VersionPrinter;
 
 public class MainForSpring {
 	private static ApplicationContext ctx = null;
@@ -43,9 +44,18 @@ public class MainForSpring {
 			} else if (command.startsWith("info ")) {
 				processInfoCommand(command.split(" "));
 				continue;
+			} else if (command.equals("version")) {
+				processVersionCommand();
+				continue;
 			}
 			printHelp();
 		}
+	}
+
+	private static void processVersionCommand() {
+	  VersionPrinter versionPrinter = ctx.getBean("versionPrinter", VersionPrinter.class);
+	  versionPrinter.print();
+		
 	}
 
 	private static Assembler assembler = new Assembler();
