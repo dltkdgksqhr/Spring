@@ -10,7 +10,7 @@ import spring.MemberPrinter;
 import spring.MemberRegisterService;
 
 @Configuration
-public class ConfigPart2 {
+public class ConfigPart2 { 
 	
 	@Autowired
 	private ConfigPart1 configPart1;
