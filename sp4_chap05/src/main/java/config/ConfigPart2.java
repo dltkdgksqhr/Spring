@@ -23,7 +23,7 @@ public class ConfigPart2 {
 	@Bean
 	public MemberInfoPrinter infoPrinter() {
 		MemberInfoPrinter infoPrinter = new MemberInfoPrinter();
-		infoPrinter.setMemberDao(configPart1.memberDao());
+		infoPrinter.setMemberDao(configPart1.memberDao());  // @Configuration의 장점 주입할 빈 객체가 어떤 자바 설정 클래스에 정의되어있는지 알 수 있다.
 		infoPrinter.setPrinter(printer());
 		return infoPrinter;
 	}
