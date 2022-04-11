@@ -22,7 +22,11 @@ public class MemberDao {
 		map.put(member.getEmail(), member);
 	}
 
+<<<<<<< HEAD
 	public Collection<Member> selectAll() {
+=======
+	public Collection<Member> selectAll() { // 생성자에 전달할 의존 객체가 두 개 이상이면 사용하는 메서드
+>>>>>>> branch 'master' of http://github.com/dltkdgksqhr/spring.git
 		return map.values();
 	}
 }

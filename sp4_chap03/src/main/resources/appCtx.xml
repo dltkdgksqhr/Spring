@@ -14,4 +14,24 @@
      <constructor-arg ref="memberDao"/>
    </bean>
    
+<<<<<<< HEAD
+=======
+   <bean id="listPrinter" class="spring.MemberListPrinter">
+     <constructor-arg ref="memberDao"/>
+     <constructor-arg ref="memberPrinter"/>
+   </bean>
+   
+   <bean id="memberPrinter" class="spring.MemberPrinter">
+   </bean>
+	
+	<bean id="infoPrinter" class="spring.MemberInfoPrinter">
+		<property name="memberDao" ref="memberDao" />
+		<property name="printer" ref="memberPrinter" />
+	</bean>
+	
+	<bean id="versionPrinter" class="spring.VersionPrinter">
+		<property name="majorVersion" value="4" />
+		<property name="minorVersion" value="1" />
+ 	</bean> <!--값 타입 속성의 프로퍼티 설정  -->
+>>>>>>> branch 'master' of http://github.com/dltkdgksqhr/spring.git
 </beans>
