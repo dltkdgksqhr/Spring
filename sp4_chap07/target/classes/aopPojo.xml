@@ -10,7 +10,7 @@
     <bean id="exeTimeAspect" class="aspect.ExeTimeAspect"/>
     
     <!-- Aspect 설정 : Advice를 어떤 Pointcut에 적용할 지 설정 -->
-    <aop:config>
+    <aop:config proxy-target-class="true"> <!-- POJO 방식 XML 설정 -->
        <aop:aspect id="mesureAspect" ref="exeTimeAspect"> <!-- 공통 기능으로 사용할 빈 지정 -->
          <aop:pointcut id="publicMethod" expression="execution(public * chap07..*(..))"/> <!-- Pointcut을 정의함 -->
          <aop:around pointcut-ref="publicMethod" method="measure"/>  <!-- Pointcut에 공통 기능 "measure" 메서드를 적용하는 Around Advice 정의 -->
