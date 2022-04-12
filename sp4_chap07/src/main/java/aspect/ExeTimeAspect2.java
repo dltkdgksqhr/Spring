@@ -3,9 +3,17 @@ package aspect;
 import java.util.Arrays;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 
-
-public class ExeTimeAspect {
+@Aspect
+public class ExeTimeAspect2 {
+	@Pointcut("execution(public * chap07..*(..))")
+	private void publicTarget() {
+		
+	}
+	@Around("publicTarget()")
 	public Object measure(ProceedingJoinPoint joinPoint) throws Throwable {
 		long start = System.nanoTime();
 		try {
