@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 13:23:44 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649823824364
+https\://maven.oracle.com/.error=Could not transfer artifact org.apache.maven.plugins\:maven-install-plugin\:pom\:2.4 from/to maven.oracle.com (https\://maven.oracle.com)\: authentication failed for https\://maven.oracle.com/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom, status\: 401 Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649823823536
