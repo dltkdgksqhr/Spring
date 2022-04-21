@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+			
+<mapper namespace="kr.co.ezfram.aims.mapper.TokenMapper"> <!-- 테이블 이름  -->
+
+	<resultMap id="tokenResult" type="TokenVo">
+		<!-- <result 		property="userSeq" 				column="USER_SEQ"/> -->
+		<result 		property="refreshToken" 		column="REFRESH_TOKEN"/>
+		<result 		property="userId" 				column="USER_ID"/>
+		<collection 	property="user" 				column="ID" 		ofType="kr.co.ezfram.aims.user.vo.UserVO" 	select="kr.co.ezfram.aims.mapper.UserMapper.selectUserById"/>
+	</resultMap>
+
+	<select id="selectRefreshToken" resultMap="tokenResult">
+		<!-- SELECT 
+			  USER_.USER_ID,
+			 REFRESH_TOKENS.REFRESH_TOKEN  
+		FROM  
+			  REFRESH_TOKENS 
+			  LEFT OUTER JOIN USER_ 
+			  ON REFRESH_TOKENS.USER_ID = USER_.USER_ID
+		      WHERE USER_.USER_ID = #{id} --> 
+		      SELECT 
+			  *
+              FROM 
+              (select USER_.USER_ID,
+               REFRESH_TOKENS.REFRESH_TOKEN
+               from 
+			  REFRESH_TOKENS 
+			  LEFT OUTER JOIN USER_ 
+			  ON REFRESH_TOKENS.USER_ID = USER_.USER_ID
+			  WHERE USER_.USER_ID = #{id})
+              where ROWNUM = 1
+	</select>
+
+	<insert id="updateRefreshToken" parameterType="kr.co.ezfram.aims.vo.TokenVo">
+			<!-- MERGE INTO REFRESH_TOKENS 
+            USING dual 
+            ON (USER_ID = #{userId})
+            WHEN MATCHED THEN
+        	UPDATE SET USER_.USER_ID = REFRESH_TOKEN.USER_ID
+		    WHEN NOT MATCHED THEN
+            INSERT (USER_ID, REFRESH_TOKEN)
+            VALUES (#{userId}, #{refreshToken})  --> 
+            
+            MERGE INTO REFRESH_TOKENS 
+            USING USER_
+            ON (USER_.USER_ID = REFRESH_TOKENS.USER_ID )
+            WHEN MATCHED THEN
+        	UPDATE SET REFRESH_TOKENS.REFRESH_TOKEN =#{refreshToken}
+		    WHEN NOT MATCHED THEN
+            INSERT (USER_ID, REFRESH_TOKEN)
+            VALUES (#{userId} , #{refreshToken})
+            
+            <!-- userID가 중복되는게 없을 경우 insert를 통해 ID가 #{userID}이며 Token이 #{refreshToken} -->
+	</insert>
+</mapper>

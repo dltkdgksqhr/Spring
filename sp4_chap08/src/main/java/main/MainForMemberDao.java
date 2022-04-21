@@ -29,7 +29,7 @@ public class MainForMemberDao {
 	private static void selectAll() {
 		System.out.println("----selectAll");
 		int total = memberDao.count();
-		System.out.println("전체 데이터 " + total);
+		System.out.println("전체 데 " + total);
 		List<Member> members = memberDao.selectAll();
 		for(Member m : members) {
 			System.out.println(m.getId() + ":" + m.getEmail() + ":" + m.getName());

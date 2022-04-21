@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+			
+<mapper namespace="kr.co.ezfram.aims.mapper.AnswerMapper"> <!-- 테이블 이름  -->
+
+	<resultMap id="answerResult" type="AnswerVo">
+		<result 		property="ansSeq" 				column="ANS_SEQ"/>
+		<collection 	property="qstList" 				column="ANS_SEQ" 		ofType="kr.co.ezfram.aims.user.vo.QuestionVO" 	select="kr.co.ezfram.aims.user.mapper.QuestionMapper.selectQuestionByAnsSeq"/>
+	</resultMap>
+	
+	<select id="selectAnswer" resultMap="answerResult"> <!-- ID는 쿼리를 구분 할 수 있는 단어를 준다.  -->
+		SELECT  
+			  A.ANS_SEQ
+			, A.ANS_CONTENT
+			, (SELECT AVG(QST_ANS_RATE) FROM QUESTION Q WHERE Q.ANS_SEQ = A.ANS_SEQ) AS ANS_RATE
+			, A.CRE_DT
+			, A.UPD_DT
+		FROM 
+			ANSWER A
+		WHERE ANS_CONTENT = #{ansContent}
+	</select>
+	
+	<insert id="insertAnswer" parameterType="kr.co.ezfram.aims.vo.AnswerVo">
+		INSERT INTO ANSWER
+		(
+		    ANS_CONTENT
+		  , CRE_DT
+		  , UPD_DT
+		)
+		SELECT 
+			  #{ansContent}
+			,  NOW()
+			,  NOW()      
+		FROM DUAL
+		WHERE NOT EXISTS (
+		           	SELECT ANS_CONTENT
+						FROM ANSWER
+		           	WHERE ANS_CONTENT = #{ansContent}
+		) LIMIT 1
+	</insert>
+	
+</mapper>
