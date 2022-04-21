@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:42:16 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649842936022
+https\://maven.oracle.com/.error=Could not transfer artifact org.codehaus.plexus\:plexus-utils\:jar\:sources\:2.0.5 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5-sources.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649842934788

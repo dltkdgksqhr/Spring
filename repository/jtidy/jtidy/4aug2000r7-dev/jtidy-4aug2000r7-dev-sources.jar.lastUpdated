@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:41:19 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649842879385
+https\://maven.oracle.com/.error=Could not transfer artifact jtidy\:jtidy\:jar\:sources\:4aug2000r7-dev from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/jtidy/jtidy/4aug2000r7-dev/jtidy-4aug2000r7-dev-sources.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649842877837

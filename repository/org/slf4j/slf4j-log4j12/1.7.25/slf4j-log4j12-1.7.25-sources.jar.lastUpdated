@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 16:42:28 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649835748561
+https\://maven.oracle.com/.error=Could not transfer artifact org.slf4j\:slf4j-log4j12\:jar\:sources\:1.7.25 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25-sources.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649835747659

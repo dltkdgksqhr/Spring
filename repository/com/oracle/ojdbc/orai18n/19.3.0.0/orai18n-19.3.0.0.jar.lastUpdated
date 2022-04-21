@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:51:18 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649843478278
+https\://maven.oracle.com/.error=Could not transfer artifact com.oracle.ojdbc\:orai18n\:jar\:19.3.0.0 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/com/oracle/ojdbc/orai18n/19.3.0.0/orai18n-19.3.0.0.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649843476308

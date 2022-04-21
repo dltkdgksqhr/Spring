@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 16:42:35 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649835755169
+https\://maven.oracle.com/.error=Could not transfer artifact org.apache.logging.log4j\:log4j-api\:jar\:sources\:2.11.0 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/apache/logging/log4j/log4j-api/2.11.0/log4j-api-2.11.0-sources.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649835753816

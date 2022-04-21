@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:40:20 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649842820768
+https\://maven.oracle.com/.error=Could not transfer artifact plexus\:plexus-root\:pom\:1.0.3 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/plexus/plexus-root/1.0.3/plexus-root-1.0.3.pom. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649842820355

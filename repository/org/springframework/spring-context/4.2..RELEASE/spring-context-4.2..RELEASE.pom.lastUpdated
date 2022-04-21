@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 16:21:29 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649834489417
+https\://repo.maven.apache.org/maven2/.error=
+https\://maven.oracle.com/.error=Could not transfer artifact org.springframework\:spring-context\:pom\:4.2..RELEASE from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/springframework/spring-context/4.2..RELEASE/spring-context-4.2..RELEASE.pom. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649834488884

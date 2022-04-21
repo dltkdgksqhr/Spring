@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 16:21:38 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649834498941
+https\://maven.oracle.com/.error=Could not transfer artifact org.springframework\:spring-beans\:jar\:4.1.5.RELEASE from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/springframework/spring-beans/4.1.5.RELEASE/spring-beans-4.1.5.RELEASE.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649834497919

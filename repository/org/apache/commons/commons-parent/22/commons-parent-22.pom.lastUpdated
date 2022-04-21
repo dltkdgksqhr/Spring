@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:30:56 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649842256459
+https\://maven.oracle.com/.error=Could not transfer artifact org.apache.commons\:commons-parent\:pom\:22 from/to maven.oracle.com (https\://maven.oracle.com)\: authentication failed for https\://maven.oracle.com/org/apache/commons/commons-parent/22/commons-parent-22.pom, status\: 401 Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649842255987

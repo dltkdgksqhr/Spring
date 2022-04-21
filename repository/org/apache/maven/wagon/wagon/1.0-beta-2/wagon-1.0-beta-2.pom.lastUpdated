@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 18:40:02 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649842802153
+https\://maven.oracle.com/.error=Could not transfer artifact org.apache.maven.wagon\:wagon\:pom\:1.0-beta-2 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/apache/maven/wagon/wagon/1.0-beta-2/wagon-1.0-beta-2.pom. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649842801821

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Apr 13 16:42:25 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1649835745865
+https\://maven.oracle.com/.error=Could not transfer artifact org.slf4j\:jcl-over-slf4j\:jar\:sources\:1.7.25 from/to maven.oracle.com (https\://maven.oracle.com)\: Access denied to https\://maven.oracle.com/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar. Error code 401, Authorization Required
+@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1649835744817
