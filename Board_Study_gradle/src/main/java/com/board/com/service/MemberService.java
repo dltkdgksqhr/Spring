@@ -6,11 +6,13 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.board.com.domain.Member;
 import com.board.com.repository.MemberRepository;
 import com.board.com.repository.MemoryMemberRepository;
 
+@Transactional
 public class MemberService {
 	
 	private final MemberRepository memberRepository;
@@ -29,6 +31,7 @@ public class MemberService {
 		
 		memberRepository.save(member);
 		return member.getId();
+	
 	}
 
 	private void validateDDuplicateMember(Member member) {
@@ -43,7 +46,9 @@ public class MemberService {
 	 */
 	
 	public List<Member> findMembers() {
+long start = System.currentTimeMillis();
 		return memberRepository.findAll();
+		
 	}
 	
 	public Optional<Member> findOne(Long memberId) {
