@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 17:33:01 KST 2022
+el-api-2.2.jar>=
+el-api-2.2.pom>central=
+el-api-2.2.jar>central=
+el-api-2.2-sources.jar>=
+el-api-2.2-sources.jar>central=

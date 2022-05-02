@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 11:05:32 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650852332937
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650852332216
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650852332595
+https\://repo.spring.io/snapshot/.lastUpdated=1650852332432
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.aspectj\:aspectjweaver\:pom\:1.8.13 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.pom. Error code 502, Bad Gateway

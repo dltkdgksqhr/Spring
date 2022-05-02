@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:27:47 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650605267319
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650604905613
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650604911270
+https\://repo.spring.io/snapshot/.lastUpdated=1650604904818
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.apache.tomcat.embed\:tomcat-embed-el\:jar\:8.5.28 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/apache/tomcat/embed/tomcat-embed-el/8.5.28/tomcat-embed-el-8.5.28.jar. Error code 502, Bad Gateway

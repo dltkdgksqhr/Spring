@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Apr 12 15:50:12 KST 2022
+#Fri Apr 22 17:33:01 KST 2022
 log4j-1.2.17.pom>central=
 log4j-1.2.17-sources.jar>central=
+log4j-1.2.17.jar>=
 log4j-1.2.17.jar>central=
+log4j-1.2.17-sources.jar>=

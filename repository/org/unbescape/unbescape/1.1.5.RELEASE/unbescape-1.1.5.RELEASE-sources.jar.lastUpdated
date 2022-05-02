@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:28:32 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650605312778
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650605308870
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650605310788
+https\://repo.spring.io/snapshot/.lastUpdated=1650605309912
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.unbescape\:unbescape\:jar\:sources\:1.1.5.RELEASE from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/unbescape/unbescape/1.1.5.RELEASE/unbescape-1.1.5.RELEASE-sources.jar. Error code 502, Bad Gateway

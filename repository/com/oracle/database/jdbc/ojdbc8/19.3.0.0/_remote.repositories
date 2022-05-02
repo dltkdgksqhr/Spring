@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 17:44:19 KST 2022
+ojdbc8-19.3.0.0.jar>central=
+ojdbc8-19.3.0.0.pom>central=
+ojdbc8-19.3.0.0-sources.jar>central=

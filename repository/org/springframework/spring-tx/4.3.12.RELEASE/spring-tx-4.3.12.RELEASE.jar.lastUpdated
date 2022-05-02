@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 16:03:10 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650870190208
+http\://0.0.0.0/.error=Could not transfer artifact org.springframework\:spring-tx\:jar\:4.3.12.RELEASE from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jahia (http\://maven.jahia.org/maven2/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1650870182175

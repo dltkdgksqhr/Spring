@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:28:38 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650605318048
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650605313889
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650605317099
+https\://repo.spring.io/snapshot/.lastUpdated=1650605316189
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.thymeleaf.extras\:thymeleaf-extras-java8time\:jar\:sources\:3.0.1.RELEASE from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.1.RELEASE/thymeleaf-extras-java8time-3.0.1.RELEASE-sources.jar. Error code 502, Bad Gateway

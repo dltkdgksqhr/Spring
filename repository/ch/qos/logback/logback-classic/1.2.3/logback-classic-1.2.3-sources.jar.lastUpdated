@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:27:08 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650605228637
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650605224672
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650605227353
+https\://repo.spring.io/snapshot/.lastUpdated=1650605226446
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact ch.qos.logback\:logback-classic\:jar\:sources\:1.2.3 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar. Error code 502, Bad Gateway

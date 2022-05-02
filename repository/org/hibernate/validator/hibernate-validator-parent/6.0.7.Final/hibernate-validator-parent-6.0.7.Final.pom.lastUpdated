@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:21:29 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650604889146
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650604886627
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650604887423
+https\://repo.spring.io/snapshot/.lastUpdated=1650604886827
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.hibernate.validator\:hibernate-validator-parent\:pom\:6.0.7.Final from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/hibernate/validator/hibernate-validator-parent/6.0.7.Final/hibernate-validator-parent-6.0.7.Final.pom. Error code 502, Bad Gateway

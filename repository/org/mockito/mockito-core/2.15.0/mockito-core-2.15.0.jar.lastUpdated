@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 11:06:22 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650852382742
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650852372413
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650852375509
+https\://repo.spring.io/snapshot/.lastUpdated=1650852374080
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.mockito\:mockito-core\:jar\:2.15.0 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar. Error code 502, Bad Gateway

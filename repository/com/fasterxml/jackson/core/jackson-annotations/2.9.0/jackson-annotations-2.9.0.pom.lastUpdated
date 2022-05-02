@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:21:12 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650604872640
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650604871948
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650604872322
+https\://repo.spring.io/snapshot/.lastUpdated=1650604872155
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact com.fasterxml.jackson.core\:jackson-annotations\:pom\:2.9.0 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom. Error code 502, Bad Gateway

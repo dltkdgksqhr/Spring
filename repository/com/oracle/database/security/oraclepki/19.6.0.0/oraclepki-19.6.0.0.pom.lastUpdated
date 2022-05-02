@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:41:34 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650606094280
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650606092783
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650606093160
+https\://repo.spring.io/snapshot/.lastUpdated=1650606093960
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact com.oracle.database.security\:oraclepki\:pom\:19.6.0.0 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/com/oracle/database/security/oraclepki/19.6.0.0/oraclepki-19.6.0.0.pom. Error code 502, Bad Gateway

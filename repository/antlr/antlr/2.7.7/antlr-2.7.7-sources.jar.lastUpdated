@@ -1,0 +1,12 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 16:02:12 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650606879165
+https\://repo.spring.io/milestone/.error=
+http\://0.0.0.0/.error=Could not transfer artifact antlr\:antlr\:jar\:sources\:2.7.7 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jahia (http\://maven.jahia.org/maven2/, default, releases+snapshots)]
+https\://repo.spring.io/milestone/.lastUpdated=1650852483232
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1650870132594
+https\://repo.spring.io/snapshot/.error=
+https\://repo.maven.apache.org/maven2/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650852485054
+https\://repo.spring.io/snapshot/.lastUpdated=1650852484250
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact antlr\:antlr\:jar\:sources\:2.7.7 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar. Error code 502, Bad Gateway

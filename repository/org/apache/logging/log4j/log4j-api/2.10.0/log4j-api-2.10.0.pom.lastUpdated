@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 22 14:20:54 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650604854264
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650604853304
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650604853684
+https\://repo.spring.io/snapshot/.lastUpdated=1650604853507
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.apache.logging.log4j\:log4j-api\:pom\:2.10.0 from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.pom. Error code 502, Bad Gateway

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 15:35:38 KST 2022
+hibernate-commons-annotations-4.0.5.Final-sources.jar>central=
+hibernate-commons-annotations-4.0.5.Final.jar>central=
+hibernate-commons-annotations-4.0.5.Final.pom>central=

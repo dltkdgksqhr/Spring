@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 25 11:08:21 KST 2022
+https\://repo.maven.apache.org/maven2/.lastUpdated=1650852501146
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1650852498164
+https\://repo.spring.io/snapshot/.error=
+@default-rabbit-milestone-https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1650852500098
+https\://repo.spring.io/snapshot/.lastUpdated=1650852499221
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=Could not transfer artifact org.springframework\:spring-orm\:jar\:sources\:5.0.4.RELEASE from/to rabbit-milestone (https\://dl.bintray.com/rabbitmq/maven-milestones)\: Failed to transfer https\://dl.bintray.com/rabbitmq/maven-milestones/org/springframework/spring-orm/5.0.4.RELEASE/spring-orm-5.0.4.RELEASE-sources.jar. Error code 502, Bad Gateway
